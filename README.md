@@ -6,21 +6,41 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Recieve the input.
 
-### Step 2: 
- 
-### Step 3: 
+## Step 2:
+Read through the lines.
 
-### Step 4:  
+## Step 3:
+Count the words.
 
-### Step 5: 
+## Step 4:
+Write the code.
 
-### Step 6: 
+## Step 5:
+Execute the code.
 
+## Step 6:
+Recieve the output.
 ## PROGRAM:
+```
+Developed by: kavya.k
+Reference number: 22008613
+import sys
+count={ }
+with open (sys.argv[1],'r') as f:
+  for line in f:
+    for word in line.split():
+      if word not in count:
+        count[word]=1
+      else:
+        count[word]+=1
+print(count)
+f.close()
 
+```
 ### OUTPUT:
-
+![](1.png)
 
 
 ## RESULT:
